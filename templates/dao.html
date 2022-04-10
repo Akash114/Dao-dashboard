@@ -283,7 +283,7 @@
                           ,
                       options: {
                          title: {
-                            text: 'Votes Vs PraposalId',
+                            text: 'Votes Vs ProposalId',
                             display: true,
                              scales: {
                                 yAxes: [{
@@ -312,6 +312,7 @@
                       responsive:true,
                       scaleFontColor:'#FFFFFFF',
                       options: {
+                         
                         plugins: {
                             legend: {
                                 labels: {
@@ -360,7 +361,7 @@
                             ,
                         options: {
                            title: {
-                              text: 'Support and Againts of PraposalId',
+                              text: 'Support and Againts of ProposalId',
                               display: true,
                                scales: {
                                   yAxes: [{
@@ -380,7 +381,7 @@
                     },
                 complete:function(){$body.removeClass("loading");   },
                 error:function (){
-                    alert("There is some problem occurred while processing your file. Kindly check your.");
+                    alert("There is some problem occurred while processing your file. Kindly check your network.");
                 }
         
             });
